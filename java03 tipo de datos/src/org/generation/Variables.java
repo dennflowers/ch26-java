@@ -216,7 +216,12 @@ public class Variables {
 		   System.out.println( (a && b) || (a && c) );// true
 		   System.out.println( a || b || c && a ); // true
 		   System.out.println( !(a || b) && (!a || c ) ); // false
-		   System.out.println( a || b && c || a && b ) ); // true
+		   System.out.println( a || b && c || a && b ) ; // true
+		   
+		   // ----------------------------------------
+		   // int divicionPorCero 45 / 0; En java ocurre una excepción al realizar / cero
+		   
+		   
 		     
 	}	   
 }
